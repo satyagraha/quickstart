@@ -24,8 +24,9 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
       // other libraries
-      'rxjs':                      'npm:rxjs',
-      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
+      'rxjs': 'npm:rxjs',
+      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+      'd3': 'npm:d3',
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -36,6 +37,10 @@
             loader: 'systemjs-angular-loader.js'
           }
         }
+      },
+      d3: {
+        defaultExtension: 'js',
+        main: 'build/d3.js',
       },
       rxjs: {
         defaultExtension: 'js'
