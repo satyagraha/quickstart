@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var d3_service_1 = require("../d3.service");
+var d3util_service_1 = require("../d3util.service");
 var index_1 = require("../models/index");
 var DraggableDirective = (function () {
     function DraggableDirective(d3Service, _element) {
@@ -34,7 +34,7 @@ DraggableDirective = __decorate([
     core_1.Directive({
         selector: '[draggableNode]'
     }),
-    __metadata("design:paramtypes", [d3_service_1.D3Service, core_1.ElementRef])
+    __metadata("design:paramtypes", [d3util_service_1.D3Service, core_1.ElementRef])
 ], DraggableDirective);
 exports.DraggableDirective = DraggableDirective;
 //# sourceMappingURL=draggable.directive.js.map

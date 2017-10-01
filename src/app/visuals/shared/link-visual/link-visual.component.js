@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var index_1 = require("../../../d3/index");
+var index_1 = require("../../../d3util/index");
 var LinkVisualComponent = (function () {
     function LinkVisualComponent() {
     }

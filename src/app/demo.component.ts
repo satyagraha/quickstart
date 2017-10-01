@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import APP_CONFIG from './demo.config';
-import { Node, Link } from './d3/index';
+import { Node, Link } from './d3util/index';
 
 @Component({
   selector: 'd3-graph',

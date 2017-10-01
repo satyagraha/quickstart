@@ -13,7 +13,7 @@ import { ForceGraphComponent } from './visuals/graph/force-graph.component';
 import { SHARED_VISUALS } from './visuals/shared/index'
 
 import { HeroService } from './hero.service';
-import { D3Service, D3_DIRECTIVES } from './d3/index';
+import { D3Service, D3_DIRECTIVES } from './d3util/index';
 
 import { AppRoutingModule } from './app-routing.module';
 

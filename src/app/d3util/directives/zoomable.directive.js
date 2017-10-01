@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var d3_service_1 = require("../d3.service");
+var d3util_service_1 = require("../d3util.service");
 var ZoomableDirective = (function () {
     function ZoomableDirective(d3Service, gElementRef) {
         this.d3Service = d3Service;
@@ -31,7 +31,7 @@ ZoomableDirective = __decorate([
     core_1.Directive({
         selector: '[zoomableOf]'
     }),
-    __metadata("design:paramtypes", [d3_service_1.D3Service, core_1.ElementRef])
+    __metadata("design:paramtypes", [d3util_service_1.D3Service, core_1.ElementRef])
 ], ZoomableDirective);
 exports.ZoomableDirective = ZoomableDirective;
 //# sourceMappingURL=zoomable.directive.js.map

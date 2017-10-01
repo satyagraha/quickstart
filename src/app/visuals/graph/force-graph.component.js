@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var d3_service_1 = require("../../d3/d3.service");
+var d3util_service_1 = require("../../d3util/d3util.service");
 var ForceGraphComponent = (function () {
     function ForceGraphComponent(d3Service, ref) {
         this.d3Service = d3Service;
@@ -68,7 +68,7 @@ ForceGraphComponent = __decorate([
         template: "\n    <svg #svg [attr.width]=\"_options.width\" [attr.height]=\"_options.height\">\n      <g [zoomableOf]=\"svg\">\n        <g [linkVisual]=\"link\" *ngFor=\"let link of links\"></g>\n        <g [nodeVisual]=\"node\" *ngFor=\"let node of nodes\"\n           [draggableNode]=\"node\" [draggableInGraph]=\"graph\"></g>\n      </g>\n    </svg>\n  ",
         styleUrls: ['./force-graph.component.css']
     }),
-    __metadata("design:paramtypes", [d3_service_1.D3Service, core_1.ChangeDetectorRef])
+    __metadata("design:paramtypes", [d3util_service_1.D3Service, core_1.ChangeDetectorRef])
 ], ForceGraphComponent);
 exports.ForceGraphComponent = ForceGraphComponent;
 //# sourceMappingURL=force-graph.component.js.map

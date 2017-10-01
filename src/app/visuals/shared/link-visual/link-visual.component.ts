@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Link } from '../../../d3/index';
+import { Link } from '../../../d3util/index';
 
 @Component({
   selector: '[linkVisual]',

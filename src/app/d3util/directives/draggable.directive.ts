@@ -1,7 +1,7 @@
 // path : d3/directives/draggable.directives.ts
 
 import { Directive, Input, ElementRef } from '@angular/core';
-import { D3Service } from '../d3.service';
+import { D3Service } from '../d3util.service';
 import { Node, ForceDirectedGraph } from '../models/index';
 
 @Directive({
